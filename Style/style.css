@@ -67,6 +67,7 @@
     object-fit: fill;
     border-style: dashed;
     height: auto;
+    border: none;
 
 
 }

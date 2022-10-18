@@ -1,0 +1,139 @@
+.titleNamePage {
+    color: rgb(114, 151, 169);
+    font-weight: bold;
+    font-style: normal;
+    background-color: rgb(24, 25, 47);
+    text-align: center;
+    font-size: 60px;
+    padding: 1.5%;
+    cursor: wait;
+}
+
+
+.nav {
+    color: aliceblue;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+
+}
+
+.content-1 {
+    background-color: rgb(147, 226, 240);
+    justify-content: space-between;
+    height: auto;
+    border-style: dashed;
+    border: none;
+    border-radius: 20px;
+    padding: 3%;
+    justify-content: flex-start;
+    font-size: 29px;
+    text-align: center;
+    width: 250px;
+}
+
+.section-content {
+    padding-left: 30%;
+}
+
+
+.box-content {
+    background-color: rgb(90, 157, 168);
+    padding: 5%;
+    padding-left: 30%;
+    width: auto;
+
+}
+
+.hero-section {
+    justify-content: center;
+    padding-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 800px;
+
+}
+
+.container {
+    background-color: rgb(14, 79, 112);
+}
+
+.hero-side {
+    background-color: rgb(147, 226, 240);
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    padding: 3%;
+    height: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100px;
+    line-height: 25px;
+    align-content: flex-end;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.hero-section2 {
+    justify-content: center;
+    padding-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 800px;
+
+}
+
+.hero-side2 {
+    background-color: rgb(147, 226, 240);
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    padding: 3%;
+    height: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100px;
+    line-height: 25px;
+    align-content: flex-end;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hero-section3 {
+    justify-content: center;
+    padding-left: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    width: 800px;
+    padding-top: 4%;
+
+}
+
+.hero-side3 {
+    background-color: rgb(147, 226, 240);
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+    padding: 3%;
+    height: auto;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100px;
+    line-height: 25px;
+    align-content: flex-end;
+    padding-left: 10%;
+    padding-right: 10%;
+}

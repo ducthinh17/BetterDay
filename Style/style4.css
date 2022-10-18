@@ -1,0 +1,140 @@
+.titleNamePage {
+    color: rgb(114, 151, 169);
+    font-weight: bold;
+    font-style: normal;
+    background-color: rgb(24, 25, 47);
+    text-align: center;
+    font-size: 60px;
+    padding: 1.5%;
+    cursor: wait;
+}
+
+
+.nav {
+    color: aliceblue;
+    font-size: 23px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2rem;
+
+}
+
+.span-Story {
+    font-size: 30px;
+}
+
+.section-content {
+    padding-left: 30%;
+}
+
+
+.box-content {
+    background-color: rgb(90, 157, 168);
+    padding-top: 16%;
+    padding-left: revert;
+    width: auto;
+    height: 900px;
+
+
+}
+
+.hero-section {
+    justify-content: space-between;
+    padding-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    justify-content: space-around;
+    padding-top: 0%;
+
+}
+
+.container {
+    background-color: rgb(14, 79, 112);
+}
+
+
+
+
+.image-1 {
+    padding-top: 10%;
+}
+
+.image-2 {
+    padding-top: 10%;
+}
+
+.box-question {
+    background-color: rgb(147, 226, 240);
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    padding: 2%;
+    height: auto;
+    width: 1050px;
+    border-radius: 25px;
+    line-height: 45px;
+    align-content: flex-end;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.start-ques {
+    font-weight: bold;
+}
+
+.question {
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.content-qes {
+    font-size: 38px;
+}
+
+.answer {
+    text-align: left;
+    padding-left: 45%;
+}
+
+.never {
+    cursor: pointer;
+
+}
+
+.rarely {
+    cursor: pointer;
+}
+
+.sometime {
+    cursor: pointer;
+}
+
+.often {
+    cursor: pointer;
+}
+
+.alway {
+    cursor: pointer;
+}
+
+.hero-section2 {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding-left: 5%;
+    cursor: pointer;
+    text-decoration: underline;
+    padding-left: 5%;
+}
+
+.hero-side__right {
+    padding-left: 85%;
+}
