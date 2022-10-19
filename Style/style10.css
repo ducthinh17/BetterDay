@@ -53,12 +53,12 @@
 
 .image-1 {
     padding-top: 10%;
-    width: 400px;
+    width: 280px;
 }
 
 .image-2 {
     padding-top: 10%;
-    width: 400px;
+    width: 313px;
 }
 
 .box-main {
@@ -128,9 +128,7 @@
     color: #23274e;
 }
 
-.box-content-side>img {
-    width: 15rem;
-}
+.box-content-side>img {}
 
 .box-content-mid {
     display: flex;
@@ -156,6 +154,7 @@
     font-size: 2rem;
     padding: 1rem;
     text-align: center;
+    padding: 4%;
 }
 
 .box-content-mid__bottom {
@@ -205,5 +204,5 @@
 
 .explore {
     padding: 0%;
-    font-size: 21px;
+    font-size: 23px;
 }

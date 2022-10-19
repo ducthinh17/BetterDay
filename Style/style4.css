@@ -7,6 +7,10 @@
     font-size: 60px;
     padding: 1.5%;
     cursor: wait;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
@@ -17,7 +21,7 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 2rem;
+    margin: 2rem;
 
 }
 
@@ -76,7 +80,6 @@
     font-style: normal;
     padding: 2%;
     height: auto;
-    width: 1050px;
     border-radius: 25px;
     line-height: 45px;
     align-content: flex-end;
@@ -99,7 +102,7 @@
 
 .answer {
     text-align: left;
-    padding-left: 45%;
+    display: inline-block;
 }
 
 .never {
@@ -128,13 +131,50 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 800px;
-    padding-left: 5%;
     cursor: pointer;
     text-decoration: underline;
-    padding-left: 5%;
 }
 
-.hero-side__right {
-    padding-left: 85%;
+.eyes-5 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-5:before,
+.eyes-5:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #000 95%, #0000) 35% 35%/6px 6px no-repeat #fff;
+    animation: e5 3s infinite;
+}
+
+@keyframes e5 {
+
+    0%,
+    11% {
+        background-position: 35% 35%
+    }
+
+    14%,
+    36% {
+        background-position: 65% 35%
+    }
+
+    38%,
+    61% {
+        background-position: 65% 65%
+    }
+
+    64%,
+    86% {
+        background-position: 35% 65%
+    }
+
+    88%,
+    100% {
+        background-position: 35% 35%
+    }
 }

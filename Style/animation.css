@@ -26,3 +26,1515 @@
         opacity: 0
     }
 }
+
+HTML CSSResult Skip Results Iframe EDIT ON .spinner-1 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid;
+    border-color: #000 #0000;
+    animation: s1 1s infinite;
+}
+
+@keyframes s1 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+.spinner-2 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 8px solid lightblue;
+    border-right-color: orange;
+    animation: s2 1s infinite linear;
+}
+
+@keyframes s2 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.spinner-3 {
+    width: 50px;
+    padding: 8px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #25b09b;
+    --_m:
+        conic-gradient(#0000 10%, #000),
+        linear-gradient(#000 0 0) content-box;
+    -webkit-mask: var(--_m);
+    mask: var(--_m);
+    -webkit-mask-composite: source-out;
+    mask-composite: subtract;
+    animation: s3 1s infinite linear;
+}
+
+@keyframes s3 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.spinner-4 {
+    width: 50px;
+    --b: 8px;
+    /* the border thickness */
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 1px;
+    background: conic-gradient(#0000 10%, #f03355) content-box;
+    -webkit-mask:
+        repeating-conic-gradient(#0000 0deg, #000 1deg 20deg, #0000 21deg 36deg),
+        radial-gradient(farthest-side, #0000 calc(100% - var(--b) - 1px), #000 calc(100% - var(--b)));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: s4 1s infinite steps(10);
+}
+
+@keyframes s4 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.spinner-5 {
+    width: 50px;
+    --b: 8px;
+    /* the border thickness */
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: #514b82;
+    -webkit-mask:
+        repeating-conic-gradient(#0000 0deg, #000 1deg 70deg, #0000 71deg 90deg),
+        radial-gradient(farthest-side, #0000 calc(100% - var(--b) - 1px), #000 calc(100% - var(--b)));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: s5 1s infinite;
+}
+
+@keyframes s5 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+.spinner-6 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 3px;
+    background:
+        radial-gradient(farthest-side, #ffa516 95%, #0000) 50% 0/12px 12px no-repeat,
+        radial-gradient(farthest-side, #0000 calc(100% - 5px), #ffa516 calc(100% - 4px)) content-box;
+    animation: s6 2s infinite;
+}
+
+@keyframes s6 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.spinner-7 {
+    width: 50px;
+    aspect-ratio: 1;
+    --_c: radial-gradient(farthest-side, #25b09b 92%, #0000);
+    background:
+        var(--_c) top,
+        var(--_c) left,
+        var(--_c) right,
+        var(--_c) bottom;
+    background-size: 12px 12px;
+    background-repeat: no-repeat;
+    animation: s7 1s infinite;
+}
+
+@keyframes s7 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+.spinner-8 {
+    width: 50px;
+    aspect-ratio: 1;
+    color: #f03355;
+    --_c: no-repeat radial-gradient(farthest-side, currentColor 92%, #0000);
+    background:
+        var(--_c) 50% 0 /12px 12px,
+        var(--_c) 50% 100%/12px 12px,
+        var(--_c) 100% 50%/12px 12px,
+        var(--_c) 0 50%/12px 12px,
+        var(--_c) 50% 50%/12px 12px,
+        conic-gradient(from 90deg at 4px 4px, #0000 90deg, currentColor 0) -4px -4px/calc(50% + 2px) calc(50% + 2px);
+    animation: s8 1s infinite linear;
+}
+
+@keyframes s8 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+.spinner-9 {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #f03355 95%, #0000) 50% 1px/12px 12px no-repeat,
+        radial-gradient(farthest-side, #0000 calc(100% - 14px), #ccc 0);
+    animation: s9 2s infinite linear;
+}
+
+@keyframes s9 {
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.spinner-10 {
+    width: 50px;
+    aspect-ratio: 1;
+    color: #854f1d;
+    border-radius: 50%;
+    display: grid;
+    background:
+        conic-gradient(from 90deg at 4px 4px, #0000 90deg, currentColor 0) -4px -4px/calc(50% + 2px) calc(50% + 2px),
+        radial-gradient(farthest-side, currentColor 6px, #0000 7px calc(100% - 6px), currentColor calc(100% - 5px)) no-repeat;
+    animation: s10 2s infinite linear;
+    position: relative;
+}
+
+.spinner-10:before {
+    content: "";
+    border-radius: inherit;
+    background: inherit;
+    transform: rotate(45deg);
+}
+
+@keyframes s10 {
+    to {
+        transform: rotate(.5turn)
+    }
+}
+
+/**/
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 130px;
+    place-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.progress-1 {
+    width: 120px;
+    height: 20px;
+    background:
+        linear-gradient(#000 0 0) 0/0% no-repeat #ddd;
+    animation: p1 2s infinite linear;
+}
+
+@keyframes p1 {
+    100% {
+        background-size: 100%
+    }
+}
+
+.progress-2 {
+    width: 120px;
+    height: 20px;
+    border-radius: 20px;
+    background:
+        linear-gradient(orange 0 0) 0/0% no-repeat lightblue;
+    animation: p2 2s infinite steps(10);
+}
+
+@keyframes p2 {
+    100% {
+        background-size: 110%
+    }
+}
+
+.progress-3 {
+    width: 120px;
+    height: 20px;
+    border-radius: 20px;
+    background:
+        repeating-linear-gradient(135deg, #f03355 0 10px, #ffa516 0 20px) 0/0% no-repeat,
+        repeating-linear-gradient(135deg, #ddd 0 10px, #eee 0 20px) 0/100%;
+    animation: p3 2s infinite;
+}
+
+@keyframes p3 {
+    100% {
+        background-size: 100%
+    }
+}
+
+.progress-4 {
+    width: 120px;
+    height: 20px;
+    -webkit-mask: linear-gradient(90deg, #000 70%, #0000 0) 0/20%;
+    background:
+        linear-gradient(#000 0 0) 0/0% no-repeat #ddd;
+    animation: p4 2s infinite steps(6);
+}
+
+@keyframes p4 {
+    100% {
+        background-size: 120%
+    }
+}
+
+.progress-5 {
+    width: 80px;
+    height: 40px;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    padding: 3px;
+    background:
+        repeating-linear-gradient(90deg, currentColor 0 10px, #0000 0 15px) 0/0% no-repeat content-box content-box;
+    position: relative;
+    animation: p4 2s infinite steps(6);
+}
+
+.progress-5::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    left: 100%;
+    width: 10px;
+    background:
+        linear-gradient(#0000 calc(50% - 7px), currentColor 0 calc(50% - 5px),
+            #0000 0 calc(50% + 5px), currentColor 0 calc(50% + 7px), #0000 0) left /100% 100%,
+        linear-gradient(currentColor calc(50% - 5px), #0000 0 calc(50% + 5px), currentColor 0) left /2px 100%,
+        linear-gradient(#0000 calc(50% - 5px), currentColor 0 calc(50% + 5px), #0000 0) right/2px 100%;
+    background-repeat: no-repeat;
+}
+
+@keyframes p5 {
+    100% {
+        background-size: 120%
+    }
+}
+
+.progress-6 {
+    width: 120px;
+    height: 22px;
+    border-radius: 20px;
+    color: #514b82;
+    border: 2px solid;
+    position: relative;
+}
+
+.progress-6::before {
+    content: "";
+    position: absolute;
+    margin: 2px;
+    inset: 0 100% 0 0;
+    border-radius: inherit;
+    background: currentColor;
+    animation: p6 2s infinite;
+}
+
+@keyframes p6 {
+    100% {
+        inset: 0
+    }
+}
+
+.progress-7 {
+    width: 120px;
+    height: 24px;
+    -webkit-mask:
+        radial-gradient(circle closest-side, #000 94%, #0000) 0 0/25% 100%,
+        linear-gradient(#000 0 0) center/calc(100% - 12px) calc(100% - 12px) no-repeat;
+    background:
+        linear-gradient(#25b09b 0 0) 0/0% no-repeat #ddd;
+    animation: p7 2s infinite linear;
+}
+
+@keyframes p7 {
+    100% {
+        background-size: 100%
+    }
+}
+
+.progress-8 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    -webkit-mask: linear-gradient(0deg, #000 55%, #0000 0) bottom/100% 18.18%;
+    background:
+        linear-gradient(#f03355 0 0) bottom/100% 0% no-repeat #ddd;
+    animation: p8 2s infinite steps(7);
+}
+
+@keyframes p8 {
+    100% {
+        background-size: 100% 115%
+    }
+}
+
+
+.progress-9 {
+    --r1: 154%;
+    --r2: 68.5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background:
+        radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #269af2 80%),
+        radial-gradient(var(--r1) var(--r2) at bottom, #269af2 79.5%, #0000 80%),
+        radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #269af2 80%),
+        #ccc;
+    background-size: 50.5% 220%;
+    background-position: -100% 0%, 0% 0%, 100% 0%;
+    background-repeat: no-repeat;
+    animation: p9 2s infinite linear;
+}
+
+@keyframes p9 {
+    33% {
+        background-position: 0% 33%, 100% 33%, 200% 33%
+    }
+
+    66% {
+        background-position: -100% 66%, 0% 66%, 100% 66%
+    }
+
+    100% {
+        background-position: 0% 100%, 100% 100%, 200% 100%
+    }
+}
+
+
+.progress-10 {
+    width: 120px;
+    height: 60px;
+    border-radius: 200px 200px 0 0;
+    -webkit-mask: repeating-radial-gradient(farthest-side at bottom, #0000 0, #000 1px 12%, #0000 calc(12% + 1px) 20%);
+    background:
+        radial-gradient(farthest-side at bottom, #514b82 0 95%, #0000 0) bottom/0% 0% no-repeat #ddd;
+    animation: p10 2s infinite steps(6);
+}
+
+@keyframes p10 {
+    100% {
+        background-size: 120% 120%
+    }
+}
+
+/**/
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 130px;
+    place-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.eyes-1 {
+    height: 30px;
+    aspect-ratio: 1;
+    background:
+        radial-gradient(farthest-side, #000 15%, #0000 18%),
+        radial-gradient(50% 100% at 50% 160%, #fff 95%, #0000) top/100% 50%,
+        radial-gradient(50% 100% at 50% -60%, #fff 95%, #0000) bottom/100% 50%;
+    background-repeat: no-repeat;
+    display: grid;
+}
+
+.eyes-1:before {
+    content: "";
+    background: inherit;
+    opacity: 0.6;
+    animation: e1 1s infinite;
+}
+
+@keyframes e1 {
+    to {
+        transform: scale(3);
+        opacity: 0
+    }
+}
+
+.eyes-2 {
+    height: 30px;
+    aspect-ratio: 2;
+    background:
+        radial-gradient(farthest-side, #000 15%, #0000 18%)0 0/50% 100%,
+        radial-gradient(50% 100% at 50% 160%, #fff 95%, #0000) 0 0 /50% 50%,
+        radial-gradient(50% 100% at 50% -60%, #fff 95%, #0000) 0 100%/50% 50%;
+    background-repeat: repeat-x;
+    display: grid;
+    animation: e2 1.5s infinite linear;
+}
+
+@keyframes e2 {
+
+    0%,
+    15% {
+        background-position: 0 0, 0 0, 0 100%
+    }
+
+    20%,
+    40% {
+        background-position: 5px 0, 0 0, 0 100%
+    }
+
+    45%,
+    55% {
+        background-position: 0 0, 0 0, 0 100%
+    }
+
+    60%,
+    80% {
+        background-position: -5px 0, 0 0, 0 100%
+    }
+
+    85%,
+    100% {
+        background-position: 0 0, 0 0, 0 100%
+    }
+}
+
+.eyes-3 {
+    height: 30px;
+    aspect-ratio: 2;
+    background:
+        radial-gradient(50% 100%, #000 95%, #0000) 0 0 /50% 0%,
+        radial-gradient(farthest-side, #000 15%, #0000 18%)0 0/50% 100%,
+        radial-gradient(50% 100% at 50% 160%, #fff 95%, #0000) 0 0 /50% 50%,
+        radial-gradient(50% 100% at 50% -60%, #fff 95%, #0000) 0 100%/50% 50%;
+    background-repeat: repeat-x;
+    animation: e3 1.5s infinite alternate ease-in;
+}
+
+@keyframes e3 {
+
+    0%,
+    70% {
+        background-size: 50% 0, 50% 100%, 50% 50%, 50% 50%
+    }
+
+    85% {
+        background-size: 50% 100%, 50% 100%, 50% 50%, 50% 50%
+    }
+
+    100% {
+        background-size: 50% 0, 50% 100%, 50% 50%, 50% 50%
+    }
+}
+
+.eyes-4 {
+    height: 30px;
+    aspect-ratio: 2;
+    background:
+        radial-gradient(50% 100%, #000 95%, #0000) 0 0 /50% 0%,
+        radial-gradient(farthest-side, #000 15%, #0000 18%)0 0/50% 100%,
+        radial-gradient(50% 100% at 50% 160%, #fff 95%, #0000) 0 0 /50% 50%,
+        radial-gradient(50% 100% at 50% -60%, #fff 95%, #0000) 0 100%/50% 50%;
+    background-repeat: repeat-x;
+    display: grid;
+    animation: e4 1.5s infinite alternate ease-in;
+}
+
+.eyes-4:before,
+.eyes-4:after {
+    content: "";
+    background: inherit;
+    grid-area: 1/1;
+    animation: e4 1s infinite alternate ease-in;
+}
+
+.eyes-4:before {
+    transform: translateY(-70%);
+}
+
+.eyes-4:after {
+    transform: translateY(70%);
+    animation-delay: 0.6s;
+}
+
+@keyframes e4 {
+
+    0%,
+    70% {
+        background-size: 50% 0, 50% 100%, 50% 50%, 50% 50%
+    }
+
+    85% {
+        background-size: 50% 100%, 50% 100%, 50% 50%, 50% 50%
+    }
+
+    100% {
+        background-size: 50% 0, 50% 100%, 50% 50%, 50% 50%
+    }
+}
+
+.eyes-5 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-5:before,
+.eyes-5:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #000 95%, #0000) 35% 35%/6px 6px no-repeat #fff;
+    animation: e5 3s infinite;
+}
+
+@keyframes e5 {
+
+    0%,
+    11% {
+        background-position: 35% 35%
+    }
+
+    14%,
+    36% {
+        background-position: 65% 35%
+    }
+
+    38%,
+    61% {
+        background-position: 65% 65%
+    }
+
+    64%,
+    86% {
+        background-position: 35% 65%
+    }
+
+    88%,
+    100% {
+        background-position: 35% 35%
+    }
+}
+
+.eyes-6 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-6:before,
+.eyes-6:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #000 95%, #0000) 35% 35%/6px 6px no-repeat #fff;
+    transform: scaleX(var(--s, 1)) rotate(0deg);
+    animation: e6 1s infinite linear;
+}
+
+.eyes-6:after {
+    --s: -1;
+    animation-delay: -0.1s;
+}
+
+@keyframes e6 {
+    100% {
+        transform: scaleX(var(--s, 1)) rotate(360deg);
+    }
+}
+
+.eyes-7 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-7:before,
+.eyes-7:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        linear-gradient(#222 0 0) top/100% 40% no-repeat,
+        radial-gradient(farthest-side, #000 95%, #0000) 50%/8px 8px no-repeat #fff;
+    animation: e7 1.5s infinite alternate ease-in;
+}
+
+@keyframes e7 {
+
+    0%,
+    70% {
+        background-size: 100% 40%, 8px 8px
+    }
+
+    85% {
+        background-size: 100% 120%, 8px 8px
+    }
+
+    100% {
+        background-size: 100% 40%, 8px 8px
+    }
+}
+
+.eyes-8 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-8:before,
+.eyes-8:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        linear-gradient(#222 0 0) top/100% 40% no-repeat,
+        radial-gradient(farthest-side, #000 95%, #0000) 50%/8px 8px no-repeat #fff;
+    animation: 2.5s infinite;
+    animation-name: e8-1, e8-2;
+}
+
+@keyframes e8-1 {
+
+    0%,
+    40%,
+    100% {
+        background-size: 100% 40%, 8px 8px
+    }
+
+    50%,
+    80% {
+        background-size: 100% 0%, 8px 8px
+    }
+}
+
+@keyframes e8-2 {
+
+    0%,
+    50% {
+        background-position: top, 50% 50%
+    }
+
+    60%,
+    65% {
+        background-position: top, 70% 50%
+    }
+
+    70%,
+    75% {
+        background-position: top, 30% 50%
+    }
+
+    90%,
+    100% {
+        background-position: top, 50% 50%
+    }
+}
+
+.eyes-9 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-9:before,
+.eyes-9:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        linear-gradient(#222 0 0) top/100% 0% no-repeat,
+        radial-gradient(farthest-side, #000 95%, #0000) 50%/8px 8px no-repeat #fff;
+    animation: e9 4s infinite ease-in;
+}
+
+@keyframes e9 {
+    0% {
+        background-size: 100% 0%, 8px 8px;
+        background-position: top, 50% 50%
+    }
+
+    80% {
+        background-size: 100% 70%, 8px 8px;
+        background-position: top, 50% 70%
+    }
+
+    84%,
+    100% {
+        background-size: 100% 0%, 8px 8px;
+        background-position: top, 50% 50%
+    }
+}
+
+.eyes-10 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-10:before,
+.eyes-10:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #000 95%, #0000) 50%/8px 8px no-repeat #fff;
+    aspect-ratio: 1;
+    animation: e10 1.5s infinite alternate;
+}
+
+.eyes-10:after {
+    --s: -1;
+}
+
+@keyframes e10 {
+
+    0%,
+    20% {
+        transform: scaleX(var(--s, 1)) rotate(0deg);
+        clip-path: inset(0)
+    }
+
+    60%,
+    100% {
+        transform: scaleX(var(--s, 1)) rotate(30deg);
+        clip-path: inset(40% 0 0)
+    }
+}
+
+/**/
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 130px;
+    place-items: center;
+    background: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.maze-1 {
+    width: 40px;
+    aspect-ratio: 1;
+    outline: 2px solid #fff;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0),
+        conic-gradient(from -90deg at 30px 30px, #0000 90deg, #fff 0);
+    animation: m1 1.5s infinite;
+}
+
+@keyframes m1 {
+    0% {
+        background-position: 0 0
+    }
+
+    25% {
+        background-position: 100% 0
+    }
+
+    50% {
+        background-position: 100% 100%
+    }
+
+    75% {
+        background-position: 0 100%
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+.maze-2 {
+    width: 70px;
+    height: 40px;
+    outline: 2px solid #fff;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        linear-gradient(#fff 0 0) center/10px 100% no-repeat,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0),
+        conic-gradient(from -90deg at 60px 30px, #0000 90deg, #fff 0);
+    animation: m2 2s infinite;
+}
+
+@keyframes m2 {
+    0% {
+        background-position: 0 0, center
+    }
+
+    12.5% {
+        background-position: 50% 0, center
+    }
+
+    25% {
+        background-position: 50% 100%, center
+    }
+
+    37.5% {
+        background-position: 100% 100%, center
+    }
+
+    50% {
+        background-position: 100% 0, center
+    }
+
+    62.5% {
+        background-position: 50% 0, center
+    }
+
+    75% {
+        background-position: 50% 100%, center
+    }
+
+    82.5% {
+        background-position: 0 100%, center
+    }
+
+    100% {
+        background-position: 0 0, center
+    }
+}
+
+.maze-3 {
+    width: 40px;
+    aspect-ratio: 1;
+    outline: 2px solid #fff;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0),
+        conic-gradient(from -90deg at 30px 30px, #0000 90deg, #fff 0);
+    animation: m3 1.5s infinite;
+}
+
+@keyframes m3 {
+    0% {
+        background-position: 0 0;
+        clip-path: circle(15px at left 4px top 4px)
+    }
+
+    25% {
+        background-position: 100% 0;
+        clip-path: circle(15px at right 4px top 4px)
+    }
+
+    50% {
+        background-position: 100% 100%;
+        clip-path: circle(15px at right 4px bottom 4px)
+    }
+
+    75% {
+        background-position: 0 100%;
+        clip-path: circle(15px at left 4px bottom 4px)
+    }
+
+    100% {
+        background-position: 0 0;
+        clip-path: circle(15px at left 4px top 4px)
+    }
+}
+
+.maze-4 {
+    width: 70px;
+    height: 40px;
+    outline: 2px solid #fff;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        linear-gradient(#fff 0 0) center/10px 100% no-repeat,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0),
+        conic-gradient(from -90deg at 60px 30px, #0000 90deg, #fff 0);
+    animation: m4 2s infinite;
+}
+
+@keyframes m4 {
+    0% {
+        background-position: 0 0, center;
+        clip-path: circle(15px at left 4px top 4px)
+    }
+
+    12.5% {
+        background-position: 50% 0, center;
+        clip-path: circle(15px at left 50% top 4px)
+    }
+
+    25% {
+        background-position: 50% 100%, center;
+        clip-path: circle(15px at left 50% bottom 4px)
+    }
+
+    37.5% {
+        background-position: 100% 100%, center;
+        clip-path: circle(15px at right 4px bottom 4px)
+    }
+
+    50% {
+        background-position: 100% 0, center;
+        clip-path: circle(15px at right 4px top 4px)
+    }
+
+    62.5% {
+        background-position: 50% 0, center;
+        clip-path: circle(15px at right 50% top 4px)
+    }
+
+    75% {
+        background-position: 50% 100%, center;
+        clip-path: circle(15px at right 50% bottom 4px)
+    }
+
+    82.5% {
+        background-position: 0 100%, center;
+        clip-path: circle(15px at left 4px bottom 4px)
+    }
+
+    100% {
+        background-position: 0 0, center;
+        clip-path: circle(15px at left 4px top 4px)
+    }
+}
+
+.maze-5 {
+    width: 70px;
+    aspect-ratio: 1;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        conic-gradient(from -90deg at 30px 30px, #0000 90deg, #fff 0) 0 0/40px 40px,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0) 0 0/40px 40px no-repeat,
+        conic-gradient(from -90deg at 30px 30px, #0000 90deg, #fff 0) 100% 100%/40px 40px no-repeat;
+    animation: m5 2s infinite;
+}
+
+@keyframes m5 {
+    0% {
+        background-position: left 1px top 1px, 0 0, 0 0, 100% 100%
+    }
+
+    16.67% {
+        background-position: left 50% top 1px, 0 0, 0 0, 100% 100%
+    }
+
+    33.33% {
+        background-position: left 50% bottom 1px, 0 0, 0 0, 100% 100%
+    }
+
+    50% {
+        background-position: right 1px bottom 1px, 0 0, 0 0, 100% 100%
+    }
+
+    66.67% {
+        background-position: right 1px bottom 50%, 0 0, 0 0, 100% 100%
+    }
+
+    83.33% {
+        background-position: left 1px bottom 50%, 0 0, 0 0, 100% 100%
+    }
+
+    100% {
+        background-position: left 1px top 1px, 0 0, 0 0, 100% 100%
+    }
+}
+
+.maze-6 {
+    width: 70px;
+    aspect-ratio: 2;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px,
+        linear-gradient(#fff 0 0) 100% 0/30px 10px,
+        linear-gradient(#fff 0 0) 0 100%/30px 10px,
+        repeating-linear-gradient(90deg, #fff 0 10px, #0000 0 30px);
+    background-repeat: no-repeat;
+    animation: m6 2s infinite;
+}
+
+@keyframes m6 {
+    0% {
+        background-position: left 1px bottom 1px, 100% 0, 0 100%, 0 0
+    }
+
+    12.5% {
+        background-position: left 50% bottom 1px, 100% 0, 0 100%, 0 0
+    }
+
+    25% {
+        background-position: left 50% top 1px, 100% 0, 0 100%, 0 0
+    }
+
+    37.5% {
+        background-position: right 1px top 1px, 100% 0, 0 100%, 0 0
+    }
+
+    50% {
+        background-position: right 1px bottom 1px, 0 0, 100% 100%, 0 0
+    }
+
+    62.5% {
+        background-position: right 50% bottom 1px, 0 0, 100% 100%, 0 0
+    }
+
+    75% {
+        background-position: right 50% top 1px, 0 0, 100% 100%, 0 0
+    }
+
+    87.5% {
+        background-position: left 1px top 1px, 0 0, 100% 100%, 0 0
+    }
+
+    100% {
+        background-position: left 1px bottom 1px, 100% 0, 0 100%, 0 0
+    }
+}
+
+.maze-7 {
+    width: 40px;
+    aspect-ratio: 1;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 50%/8px 8px no-repeat,
+        conic-gradient(from -90deg at 15px 15px, #0000 90deg, #fff 0) 0 0/25px 25px;
+    animation: m7 1s infinite;
+}
+
+@keyframes m7 {
+    0% {
+        background-position: 50%, 0 0
+    }
+
+    50% {
+        background-position: 50%, 25px 0
+    }
+
+    100% {
+        background-position: 50%, 25px 25px
+    }
+}
+
+.maze-8 {
+    width: 40px;
+    aspect-ratio: 1;
+    background:
+        radial-gradient(farthest-side, #000 90%, #0000) 50%/8px 8px no-repeat,
+        conic-gradient(from -90deg at 15px 15px, #0000 90deg, #fff 0) 0 0/25px 25px;
+    animation: m8 1.5s infinite;
+}
+
+@keyframes m8 {
+    0% {
+        background-position: left -10px top 50%, 0 0
+    }
+
+    50% {
+        background-position: right -10px top 50%, 0 0
+    }
+
+    50.01% {
+        background-position: right 50% top -10px, 0 0
+    }
+
+    100% {
+        background-position: right 50% bottom -10px, 0 0
+    }
+}
+
+.maze-9 {
+    width: 70px;
+    height: 40px;
+    outline: 2px solid #fff;
+    background:
+        radial-gradient(farthest-side, red 90%, #0000) 0 0/8px 8px no-repeat,
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px no-repeat,
+        linear-gradient(#fff 0 0) center/10px 100% no-repeat,
+        conic-gradient(from 90deg at 10px 10px, #0000 90deg, #fff 0),
+        conic-gradient(from -90deg at 60px 30px, #0000 90deg, #fff 0);
+    animation: m9 2s infinite;
+}
+
+@keyframes m9 {
+    0% {
+        background-position: 50% 100%, 0 0, center
+    }
+
+    12.5% {
+        background-position: 0 100%, 50% 0, center
+    }
+
+    25% {
+        background-position: 0 0, 50% 100%, center
+    }
+
+    37.5% {
+        background-position: 50% 0, 100% 100%, center
+    }
+
+    50% {
+        background-position: 50% 100%, 100% 0, center
+    }
+
+    62.5% {
+        background-position: 100% 100%, 50% 0, center
+    }
+
+    75% {
+        background-position: 100% 0, 50% 100%, center
+    }
+
+    82.5% {
+        background-position: 50% 0, 0 100%, center
+    }
+
+    100% {
+        background-position: 50% 100%, 0 0, center
+    }
+}
+
+.maze-10 {
+    height: 30px;
+    aspect-ratio: 2;
+    background:
+        radial-gradient(farthest-side, red 90%, #0000) 0 0/8px 8px,
+        radial-gradient(farthest-side, red 90%, #0000) 0 0/8px 8px,
+        radial-gradient(farthest-side, red 90%, #0000) 0 0/8px 8px,
+        radial-gradient(farthest-side, red 90%, #0000) 0 0/8px 8px,
+        radial-gradient(farthest-side, #000 90%, #0000) 0 0/8px 8px,
+        linear-gradient(#fff 0 0) center/100% 10px,
+        linear-gradient(#fff 0 0) right/50% 100%;
+    background-repeat: no-repeat;
+    animation: m10 2s infinite;
+}
+
+@keyframes m10 {
+    0% {
+        background-position: top 1px right 1px, right 1px bottom 1px, top 1px left 31px, bottom 1px left 31px, -10px 50%, 50%, right
+    }
+
+    50%,
+    60% {
+        background-position: top 1px right 1px, right 1px bottom 1px, top 1px left 31px, bottom 1px left 31px, left 75% top 50%, 50%, right
+    }
+
+    80% {
+        background-position: 75% 50%, 75% 50%, 75% 50%, 75% 50%, left 75% top 50%, 50%, right
+    }
+
+    80.01% {
+        background-position: 75% 50%, 75% 50%, 75% 50%, 75% 50%, -10px 50%, 50%, right
+    }
+
+    100% {
+        background-position: top 1px right 1px, right 1px bottom 1px, top 1px left 31px, bottom 1px left 31px, -10px 50%, 50%, right
+    }
+}
+
+/**/
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 130px;
+    place-items: center;
+    background: #000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.pulsing-1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    box-shadow: 0 0 0 0 #0004;
+    animation: pl1 1s infinite;
+}
+
+@keyframes pl1 {
+    100% {
+        box-shadow: 0 0 0 30px #0000
+    }
+}
+
+.pulsing-2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #000;
+    box-shadow: 0 0 0 0 #0004;
+    animation: pl2 1.5s infinite linear;
+    position: relative;
+}
+
+.pulsing-2:before,
+.pulsing-2:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    box-shadow: 0 0 0 0 #0004;
+    animation: inherit;
+    animation-delay: -0.5s;
+}
+
+.pulsing-2:after {
+    animation-delay: -1s;
+}
+
+@keyframes pl2 {
+    100% {
+        box-shadow: 0 0 0 40px #0000
+    }
+}
+
+.pulsing-3 {
+    width: 50px;
+    height: 50px;
+    color: #dc1818;
+    background:
+        radial-gradient(circle at 60% 65%, currentColor 62%, #0000 65%) top left,
+        radial-gradient(circle at 40% 65%, currentColor 62%, #0000 65%) top right,
+        linear-gradient(to bottom left, currentColor 42%, #0000 43%) bottom left,
+        linear-gradient(to bottom right, currentColor 42%, #0000 43%) bottom right;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pulsing-3:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    opacity: 0.4;
+    animation: pl3 1s infinite;
+}
+
+@keyframes pl3 {
+    to {
+        transform: scale(1.8);
+        opacity: 0
+    }
+}
+
+.pulsing-4 {
+    width: 60px;
+    height: 60px;
+    position: relative;
+}
+
+.pulsing-4:before,
+.pulsing-4:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    inset: 0;
+    background:
+        radial-gradient(circle 10px, #f85c00 94%, #0000),
+        repeating-conic-gradient(from -30deg, #0000 0 60deg, #f85c00 61deg 120deg);
+    -webkit-mask: radial-gradient(circle 15px, #000 calc(100% - 6px), #0000 calc(100% - 5px) 94%, #000);
+}
+
+.pulsing-4:after {
+    animation: pl4 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes pl4 {
+    to {
+        transform: perspective(300px) translateZ(150px);
+        opacity: 0
+    }
+}
+
+
+
+.pulsing-5 {
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.pulsing-5:before,
+.pulsing-5:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #ffb940;
+    box-shadow: 0 0 0 50px;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.pulsing-5:after {
+    animation: pl5 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes pl5 {
+    to {
+        transform: perspective(300px) translateZ(150px);
+        opacity: 0
+    }
+}
+
+.pulsing-6 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.pulsing-6:before,
+.pulsing-6:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50% 50% 0 50%;
+    background: #514b82;
+    -webkit-mask: radial-gradient(circle 10px at 50% 50%, #0000 94%, #000);
+}
+
+.pulsing-6:after {
+    animation: pl6 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes pl6 {
+    to {
+        transform: perspective(300px) translateZ(150px);
+        opacity: 0
+    }
+}
+
+.pulsing-7 {
+    width: 108px;
+    height: 60px;
+    color: #269af2;
+    --c: radial-gradient(farthest-side, currentColor 96%, #0000);
+    background:
+        var(--c) 100% 100% /30% 60%,
+        var(--c) 70% 0 /50% 100%,
+        var(--c) 0 100% /36% 68%,
+        var(--c) 27% 18% /26% 40%,
+        linear-gradient(currentColor 0 0) bottom/67% 58%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.pulsing-7:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    opacity: 0.4;
+    animation: pl7 1s infinite;
+}
+
+@keyframes pl7 {
+    to {
+        transform: scale(1.8);
+        opacity: 0
+    }
+}
+
+.pulsing-8 {
+    width: 65px;
+    height: 117px;
+    position: relative;
+}
+
+.pulsing-8:before,
+.pulsing-8:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #ff8001;
+    box-shadow: 0 0 0 50px;
+    clip-path: polygon(100% 0, 23% 46%, 46% 44%, 15% 69%, 38% 67%, 0 100%, 76% 57%, 53% 58%, 88% 33%, 60% 37%);
+    ;
+}
+
+.pulsing-8:after {
+    animation: pl8 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes pl8 {
+    to {
+        transform: perspective(300px) translateZ(180px);
+        opacity: 0
+    }
+}
+
+.pulsing-9 {
+    width: 100px;
+    height: 45px;
+    position: relative;
+}
+
+.pulsing-9:before,
+.pulsing-9:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: #000;
+    box-shadow: 0 0 0 50px;
+    clip-path: polygon(-50px -20px, 10% -12px, 20% 0, calc(50% - 15px) 0, calc(50% - 10px) -20px, calc(50% - 8px) -15px, calc(50% + 8px) -15px, calc(50% + 10px) -20px, calc(50% + 15px) 0, 80% 0, 90% -12px, calc(100% + 50px) -20px, 100% 80%, calc(100% + 10px) calc(100% + 10px), 60% 100%, 50% calc(100% + 15px), 40% 100%, -10px calc(100% + 10px), 0 80%);
+}
+
+.pulsing-9:after {
+    animation: pl9 1s infinite;
+    transform: perspective(300px) translateZ(0px)
+}
+
+@keyframes pl9 {
+    to {
+        transform: perspective(300px) translateZ(100px);
+        opacity: 0
+    }
+}
+
+.pulsing-10 {
+    display: grid;
+    font-size: 50px;
+}
+
+.pulsing-10:before,
+.pulsing-10:after {
+    content: attr(data-c);
+    grid-area: 1/1;
+}
+
+.pulsing-10:after {
+    animation: pl10 1s infinite;
+}
+
+@keyframes pl10 {
+    to {
+        transform: scale(1.8);
+        opacity: 0
+    }
+}
+
+/**/
+body {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 130px;
+    place-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}

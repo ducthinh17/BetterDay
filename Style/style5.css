@@ -7,6 +7,11 @@
     font-size: 60px;
     padding: 1.5%;
     cursor: wait;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 
@@ -17,7 +22,7 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 2rem;
+    margin: 2rem;
 
 }
 
@@ -111,6 +116,50 @@
 
 .center-result {
     justify-content: center;
-    padding-left: 27%;
     cursor: pointer;
+    display: flex;
+}
+
+.eyes-5 {
+    display: flex;
+    gap: 10px;
+}
+
+.eyes-5:before,
+.eyes-5:after {
+    content: "";
+    height: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background:
+        radial-gradient(farthest-side, #000 95%, #0000) 35% 35%/6px 6px no-repeat #fff;
+    animation: e5 3s infinite;
+}
+
+@keyframes e5 {
+
+    0%,
+    11% {
+        background-position: 35% 35%
+    }
+
+    14%,
+    36% {
+        background-position: 65% 35%
+    }
+
+    38%,
+    61% {
+        background-position: 65% 65%
+    }
+
+    64%,
+    86% {
+        background-position: 35% 65%
+    }
+
+    88%,
+    100% {
+        background-position: 35% 35%
+    }
 }

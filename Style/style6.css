@@ -16,8 +16,7 @@
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-
-    margin-bottom: 2rem;
+    margin: 2rem;
 
 }
 
@@ -90,12 +89,11 @@
     padding: 2%;
     width: 500px;
     justify-content: center;
-
+    display: inline-block;
 }
 
 .center-result {
     justify-content: center;
-    padding-left: 27%;
     cursor: pointer;
 }
 
