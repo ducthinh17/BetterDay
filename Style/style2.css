@@ -4,8 +4,8 @@
     font-style: normal;
     background-color: rgb(24, 25, 47);
     text-align: center;
-    font-size: 60px;
-    padding: 1.5%;
+    font-size: 50px;
+    padding: 1%;
     cursor: wait;
 }
 
@@ -16,84 +16,80 @@
     font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin: 1rem;
 
 }
-
-.content-1 {
-    background-color: rgb(147, 226, 240);
-    justify-content: space-between;
-    width: 300px;
-    height: auto;
-    border-style: dashed;
-    border: none;
-    border-radius: 20px;
-    padding: 2%;
-    justify-content: flex-start;
-}
-
-.section-content {
-    padding-left: 45%;
-}
-
 
 .box-content {
     background-color: rgb(90, 157, 168);
-    padding-top: 5%;
-    padding-bottom: 2%;
-
-}
-
-.hero-section {
-
-
-    display: flex;
-    justify-content: space-around;
-    margin: 0.5 rem;
-    height: 300px;
-    align-items: center;
-    width: 1000px;
-    padding-left: 35%;
-    height: auto;
-
+    padding: 3%
 }
 
 .container {
     background-color: rgb(14, 79, 112);
 }
 
-.hero-side {
+.first-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+
+}
+
+.first-side {
     background-color: rgb(147, 226, 240);
-    text-align: center;
+    padding: 1.5%;
+    border-radius: 50px;
+    font-weight: bold;
     font-size: 20px;
-    font-style: italic;
-    padding: 2%;
-    height: auto;
-    width: fit-content;
-    height: fit-content;
-    border-radius: 20px;
-    line-height: 25px;
-    align-content: flex-end;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+
 }
 
-.image-left {
-    width: 200px;
-    object-position: left;
-    object-fit: fill;
-    border-style: dashed;
-    height: auto;
-    border: none;
-    padding-top: 20%;
+.first-side__mid {
+    width: 190px;
+    font-size: 23px;
+    font-weight: normal;
 }
 
-.image-right {
-    width: 230px;
-    object-position: left;
-    object-fit: fill;
-    border-style: dashed;
-    height: auto;
-    border: none;
-    padding-top: 20%;
+.second-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3%;
+    text-align: center;
+    gap: 2rem;
 
+}
+
+.second-side {
+    background-color: rgb(147, 226, 240);
+    padding: 1.5%;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.third-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.5%;
+    text-align: center;
+}
+
+.third-side__mid {
+    background-color: rgb(147, 226, 240);
+    padding: 1.5%;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
 
 }
