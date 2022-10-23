@@ -12,6 +12,7 @@
     justify-content: space-between;
 }
 
+
 .nav {
     color: aliceblue;
     font-size: 23px;
@@ -23,13 +24,15 @@
     background-color: rgb(40, 92, 114)
 }
 
-.span-Story {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    cursor: pointer;
+.ul {
+    display: contents
 }
+
+.menu {
+    display: contents;
+}
+
+.span-Story {}
 
 .container {
     background-color: rgb(40, 92, 114);
@@ -63,14 +66,6 @@
     line-height: 25px;
 }
 
-.hero-side__right {
-    line-height: 30px;
-}
-
-.content {
-    height: 200px;
-}
-
 .image-1 {
     width: 350px;
     object-position: left;
@@ -81,7 +76,6 @@
 
 
 }
-
 
 .hero__mid {
     text-align: center;
