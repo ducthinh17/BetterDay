@@ -117,7 +117,8 @@
     align-items: center;
     background-color: #5A9EA9;
     width: auto;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 5%;
 }
 
 .box-content-side>img {

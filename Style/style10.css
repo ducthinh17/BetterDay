@@ -194,7 +194,8 @@
     color: white;
     padding: 1rem;
     border-radius: 100%;
-    margin: -5%
+    margin: -5%;
+    width: 50px;
 }
 
 .check {
