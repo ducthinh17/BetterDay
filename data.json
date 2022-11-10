@@ -1,0 +1,161 @@
+{
+  "questions": {
+    "love": [
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy cô đơn và không ai hiểu mình?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn từng vướng vào một mối quan hệ độc hại chưa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang bị tổn thương bởi những mối quan hệ cũ?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang dần mất niềm tin với mọi người xung quanh?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang bị rối loạn cảm xúc (dễ khóc, dễ kích động, nhạy cảm thái quá, . . .) hay không?"
+      }
+    ],
+    "self": [
+      {
+        "type": 2,
+        "info": "Bạn đang tự ti?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn luôn cố gắng để tạo ra một lớp vỏ bọc hoàn hảo bên ngoài để che đi những tổn thương bên trong?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay suy nghĩ rằng cuộc đời này thật bất công không?"
+      },
+      {
+        "type": 1,
+        "info": "Liệu rằng bạn đã từng có cảm giác căm ghét bản thân không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay bị người nhà chửi mắng, cáu gắt, thậm chí tác động vật lí hay không?"
+      }
+    ],
+    "education": [
+      {
+        "type": 3,
+        "info": "Bạn có thuộc cộng đồng LGBT không?"
+      },
+      {
+        "type": 2,
+        "info": "Bạn có cảm thấy lạc lõng, không hòa nhập được với mọi người không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã bao giờ tự ti về khả năng của bản thân so với bạn bè cùng trang lứa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng bị phản bội trong mối quan hệ bạn bè?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn gặp phải những vấn đề tâm lý khi trải qua giai đoạn tuổi dậy thì?"
+      }
+    ],
+    "family": [
+      {
+        "type": 2,
+        "info": "Bạn có cảm thấy bản thân mình thừa thải không?"
+      },
+      {
+        "type": 4,
+        "info": "Bạn gần gũi với ai nhất trong nhà?"
+      }
+    ],
+    "working": [
+      {
+        "type": 2,
+        "info": "Bạn có cảm thấy bản thân mình thừa thãi không?"
+      },
+      {
+        "type": 5,
+        "info": "Bạn có dành thời gian cho \"công việc\" nhiều hơn thời gian dành cho \"bản thân\" không ?"
+      },
+      {
+        "type": 5,
+        "info": "Hãy cho tôi biết mức độ hài lòng về số tiền bạn đã kiếm được ở hiện tại?"
+      },
+      {
+        "type": 5,
+        "info": "Bạn có căng thẳng khi phải tìm cách ứng xử với đồng nghiệp không?"
+      }
+    ],
+    "common": {
+      "ques_1": {
+        "type": 6,
+        "info": "Bạn ít thấy hứng thú hoặc không tìm thấy niềm vui trong mọi việc"
+      },
+      "ques_2": {
+        "type": 6,
+        "info": "Bạn luôn cảm thấy chán nản, kiệt sức, tuyệt vọng"
+      },
+      "ques_3": {
+        "type": 6,
+        "info": "Bạn cảm thấy khó ngủ, ngủ không lâu hoặc ngược lại ngủ quá nhiều"
+      },
+      "ques_4": {
+        "type": 6,
+        "info": "Bạn luôn thấy mệt mỏi, thiếu năng lượng làm mọi việc"
+      },
+      "ques_5": {
+        "type": 6,
+        "info": "Bạn đột nhiên ăn quá nhiều hoặc chán ăn, biếng ăn"
+      },
+      "ques_6": {
+        "type": 6,
+        "info": "Bạn mất tự tin vào bản thân, thất vọng về bản thân và cả gia đình"
+      },
+      "ques_7": {
+        "type": 6,
+        "info": "Bạn không thể tập trung khi làm việc"
+      },
+      "ques_8": {
+        "type": 6,
+        "info": "Bạn hoạt động chậm chạp, đi lại hay nói chuyện đều chậm khiến mọi người chú ý. Hoặc bồn chồn không thể ở yên một chỗ"
+      },
+      "ques_9": {
+        "type": 6,
+        "info": "Bạn có suy nghĩ tiêu cực, muốn làm tổn thương bản thân thậm chí có suy nghĩ tự sát"
+      }
+    }
+  },
+  "answers": [
+    [
+      "Chưa từng",
+      "Hiếm khi (vài lần )",
+      "Thỉnh thoảng (ngày có, ngày không nhưng không thường xuyên)",
+      "Thường xuyên (có thể vài lần trong một ngày)",
+      "Luôn luôn (mỗi ngày mỗi lúc)"
+    ],
+    ["Có", "Một chút", "Không"],
+    ["Có", "Không", "Chưa xác định"],
+    [
+      "Anh trai, chị gái, hoặc em trai, em gái",
+      "Ba",
+      "Mẹ",
+      "Ông, bà",
+      "Không một ai"
+    ],
+    ["Chưa từng", "Rất ít - ít", "Bình thường", "Nhiều", "Rất nhiều"],
+    [
+      "Hầu như không có",
+      "Một vài ngày",
+      "Hơn một nửa thời gian",
+      "Tất cả mọi ngày"
+    ]
+  ]
+}

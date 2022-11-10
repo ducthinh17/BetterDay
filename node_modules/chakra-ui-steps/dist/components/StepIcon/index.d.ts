@@ -1,0 +1,12 @@
+import React from 'react';
+interface StepIconProps {
+    isCompletedStep?: boolean;
+    isCurrentStep?: boolean;
+    isError?: boolean;
+    isLoading?: boolean;
+    icon?: React.ComponentType<any>;
+    index: number;
+    checkIcon?: React.ComponentType<any>;
+}
+export declare const StepIcon: import("@chakra-ui/react").ComponentWithAs<"div", StepIconProps>;
+export {};
