@@ -7,28 +7,42 @@ import {
   Stack,
   Text,
   useColorModeValue,
+  useDisclosure,
 } from "@chakra-ui/react";
 import React from "react";
 import { StepsInput } from "../components/Steps";
-import data from "../data.json";
+import data from "../new_data.json";
 import { CommonColors } from "../components/CommonColors";
+import { useRouter } from "next/router";
 
 export default function Test() {
   const [value, setValue] = React.useState("0");
   const questions = data.questions;
+  const [questionTopic, setQuestionTopic] = React.useState(questions.love);
   const answers = data.answers;
+  const router = useRouter();
+  const passData = router.query;
 
-  console.log(value);
+  React.useEffect(() => {
+    if (passData.topic === "Tình yêu") setQuestionTopic(questions.love);
+    if (passData.topic === "Gia đình") setQuestionTopic(questions.family);
+    if (passData.topic === "Bản thân") setQuestionTopic(questions.self);
+    if (passData.topic === "Công việc") setQuestionTopic(questions.working);
+    if (passData.topic === "Học tập") setQuestionTopic(questions.education);
+  }, []);
 
   return (
     <>
       <Box
         w="full"
-        h="92vh"
         bgColor={useColorModeValue(CommonColors.bg, CommonColors.bg_dark)}
         py="5rem"
       >
-        <StepsInput topic="love" questions={questions.love} answers={answers} />
+        <StepsInput
+          topic={passData}
+          questions={questionTopic}
+          answers={answers}
+        />
       </Box>
       {/* <Center mx="1rem">
         <Flex flexDir="column">

@@ -15,7 +15,6 @@ import {
   ModalCloseButton,
   ModalBody,
   useColorModeValue,
-  Link,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import { useDisclosure } from "@chakra-ui/react";
@@ -23,6 +22,7 @@ import Newsletter from "./Newsletter";
 import HeroTextBox from "./HeroTexBox";
 import { CommonColors } from "./CommonColors";
 import { motion, useScroll } from "framer-motion";
+import Link from "next/link";
 
 const features = [
   {
@@ -60,6 +60,8 @@ export default function Hero() {
       y: 0,
     },
   };
+
+  const topics = ["Tình yêu", "Gia đình", "Bản thân", "Công việc", "Học tập"];
 
   return (
     <>
@@ -103,22 +105,49 @@ export default function Hero() {
               </motion.div>
             </Box>
             {/* action button */}
-            <Link href="/test" _hover={{ textDecor: "none" }}>
-              <Button
-                variant="outline"
-                w="12rem"
-                onClick={onOpen}
-                border="1px"
-                borderColor="black"
-                color="black"
-                bgColor="white"
-              >
-                <Text fontSize="1.2rem">START THE TEST</Text>
-              </Button>
-            </Link>
+            <Button
+              variant="outline"
+              w="12rem"
+              onClick={onOpen}
+              border="1px"
+              borderColor="black"
+              color="black"
+              bgColor="white"
+            >
+              <Text fontSize="1.2rem">START THE TEST</Text>
+            </Button>
           </VStack>
         </Center>
       </Box>
+
+      <Modal isOpen={isOpen} onClose={onClose} isCentered>
+        <ModalOverlay />
+        <ModalContent>
+          <ModalCloseButton />
+          <ModalHeader>Choose a topic</ModalHeader>
+          <ModalBody>
+            <VStack>
+              {topics.map((topic, index) => (
+                <Box
+                  key={index}
+                  border="1px solid black"
+                  p="0.5rem"
+                  rounded="1rem"
+                >
+                  <Link
+                    href={{
+                      pathname: "/test",
+                      query: { topic: topic },
+                    }}
+                  >
+                    <a>{topic}</a>
+                  </Link>
+                </Box>
+              ))}
+            </VStack>
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </>
   );
 }

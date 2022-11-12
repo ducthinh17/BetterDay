@@ -1,0 +1,408 @@
+{
+  "questions": {
+    "love": [
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy cô đơn và không ai hiểu mình?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn từng vướng vào một mối quan hệ độc hại chưa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy mình “không xứng” với các mối quan hệ thân thiết không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn hay tự cô lập bản thân với hầu hết các mối quan hệ khác không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang bị tổn thương bởi những mối quan hệ cũ?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang dần mất niềm tin với moi người xung quanh?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy khó khăn khi tìm niềm vui trong các hoạt động bạn từng tham gia không ?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn dễ bị tổn thương bởi những điều nhỏ nhặt từ những người thân thiết nhất ?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn hay nghi ngờ, bất an trong những mối quan hệ của mình?"
+      },
+      {
+        "type": 1,
+        "info": "Ba mẹ bạn có hay xích mích, mâu thuẫn trước mặt bạn không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có từng nghĩ mình vô dụng, là gánh nặng cho ba mẹ không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang bị rối loạn cảm xúc (dễ khóc, dễ kích động, nhạy cảm thái quá, . . .) hay không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng bị bạn của mình phản bội vì một vấn đề nào đó chưa ?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn từng nghĩ rằng bạn được ai đó yêu thương thật sự chưa?"
+      },
+      {
+        "type": 9,
+        "info": "Bạn từng nghĩ tới việc t.ự s.á.t bao nhiêu lần?"
+      }
+    ],
+    "self": [
+      {
+        "type": 1,
+        "info": "Bạn luôn cố gắng để tạo ra một lớp vỏ bọc hoàn hảo bên ngoài để che đi những tổn thương bên trong?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có áp lực việc phải thành công để báo đáp ai đó không? (ba mẹ, ân nhân, . . .)"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay dễ thất vọng hoặc tức giận khi không đạt được những kì vọng đã được đặt ra từ trước không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay so sánh mình với người khác không?"
+      },
+      {
+        "type": 1,
+        "info": "Liệu bạn từng suy nghĩ rằng dù mình cố hết sức nhưng cũng không thể làm gì ra trò hay không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay suy nghĩ rằng cuộc đời này thật bất công không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang cảm thấy mông lung, không biết nên làm gì, không biết mình là ai không?"
+      },
+      {
+        "type": 1,
+        "info": "Liệu rằng bạn đã từng có cảm giác căm ghét bản thân không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có cảm thấy bất an không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có nghĩ rằng mọi người xung quanh không thích bạn, họ chỉ tỏ ra thân thiện bên ngoài với bạn thôi không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có quan tâm, sợ người khác phán xét trước khi quyết định làm điều gì đó hay không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay cố gắng kiểm soát mọi thứ, ôm hết việc vào người không"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có đang oán hận, ghét bỏ ai đó không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay bị người nhà chửi mắng, cáu gắt, thậm chí tác động vật lí hay không?"
+      },
+      {
+        "type": 9,
+        "info": "Bạn từng nghĩ tới việc t.ự s.á.t bao nhiêu lần?"
+      }
+    ],
+    "education": [
+      {
+        "type": 1,
+        "info": "Bạn đã từng bị áp lực về vấn đề học hành, thi cử?"
+      },
+      {
+        "type": 1,
+        "info": "Có phải áp lực điểm số là nguyên nhân khiến bạn căng thẳng?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng là nạn nhân của việc thiên vị từ các giáo viên?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn hay mất tập trung, không thể hoàn thành tốt các nhiệm vụ được giao?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn thường chủ động trong việc hoạt động nhóm?"
+      },
+      {
+        "type": 10,
+        "info": "Đánh giá mức độ cân bằng của bản thân giữa học tập và vui chơi?"
+      },
+      {
+        "type": 1,
+        "info": "Học phí là nguyên nhân khiến bạn phải suy nghĩ nhiều?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã bao giờ tự ti về khả năng của bản thân so với bạn bè cùng trang lứa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy căng thẳng vì những mục tiêu mà ba mẹ đã đề ra? (vd: Thành tích học tập xuất sắc, các giải thưởng,...)"
+      },
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy khó hoà nhập với bạn bè cùng trang lứa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng bị phản bội trong mối quan hệ bạn bè?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng là nạn nhân của việc bạo lực học đường chưa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn gặp phải những vấn đề tâm lý khi trải qua giai đoạn tuổi dậy thì?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có thường chia sẻ những vấn đề khó khăn của mình cho bạn bè hay gia đình để nhận sự giúp đỡ hay không?"
+      },
+      {
+        "type": 9,
+        "info": "Bạn từng nghĩ tới việc t.ự s.á.t bao nhiêu lần?"
+      }
+    ],
+    "family": [
+      {
+        "type": 7,
+        "info": "Bạn là người con thứ mấy trong nhà nhỉ?"
+      },
+      {
+        "type": 8,
+        "info": "Đã bao lâu bạn không thể nói nỗi lòng của mình cho ba hoặc mẹ? (Chọn khoảng thời gian phù hợp nhất nhé :>)"
+      },
+      {
+        "type": 4,
+        "info": "Bạn gần gũi với ai nhất trong nhà?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn cảm thấy ba mẹ thiên vị một người anh chị em khác hơn bạn không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có cảm thấy an toàn khi ở nhà không?"
+      },
+      {
+        "type": 1,
+        "info": "Người nhà bạn có hay mâu thuẫn, cãi nhau, tác động vật lí nhau không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có hay cãi nhau, bị mắng thậm chí là bị người nhà tác động vật lí không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có nghĩ mình thừa thãi, là gánh nặng cho gia đình không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có nghĩ ba mẹ thương bạn, thấu hiểu bạn nhưng họ quan tâm sai cách không?"
+      },
+      {
+        "type": 1,
+        "info": "Ba mẹ, người thân của bạn có đặt kì vọng lớn vào bạn không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn đã từng bị người thân quấy rối, xâm hại t.i.n.h d.u.c chưa?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có từng nghĩ về những áp lực về mặt kinh tế - tài chính của gia đình không?"
+      },
+      {
+        "type": 1,
+        "info": "Gia đình bạn có còn nhiều suy nghĩ, phong tục cổ hủ, lỗi thời không? Ví dụ: trọng nam khinh nữ, nữ công gia chánh, con trai phải cứng rắn, . . ."
+      },
+      {
+        "type": 1,
+        "info": "Bạn có bị gia đình kiểm soát quá mức không? Ví dụ: giới hạn giờ đi chơi, giới hạn giờ sử dụng các thiết bị điện tử, . . ."
+      },
+      {
+        "type": 9,
+        "info": "Bạn từng nghĩ tới việc t.ự s.á.t bao nhiêu lần?"
+      }
+    ],
+    "working": [
+      {
+        "type": 1,
+        "info": "Hãy cho tôi biết mức độ quan trọng của tiền bạc đối với bản thân bạn."
+      },
+      {
+        "type": 1,
+        "info": "Bạn có “đang sống hối hả”, đánh đổi sức khỏe để đổi lấy tiền bạc không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn là người thường xuyên nộp deadline đúng hạn?"
+      },
+      {
+        "type": 11,
+        "info": "Phần lớn chi tiêu bạn phải chi trả hàng tháng là cho:"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có dành thời gian cho 'công việc' nhiều hơn thời gian dành cho 'bản thân' không ?"
+      },
+      {
+        "type": 1,
+        "info": "Hãy cho tôi biết mức độ hài lòng về số tiền bạn đã kiếm được ở hiện tại?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có thường xuyên đi làm đầy đủ và đúng giờ không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn thích làm việc tự do hơn là được người khác sai bảo?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có thấy công sức bạn bỏ ra xứng đáng với giá trị bạn nhận lại hay không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có căng thẳng khi phải tìm cách ứng xử với công việc không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có nghĩ môi trường làm việc hiện tại của bạn là môi trường: 'công bằng và bình đẳng'?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có thường xuyên mang công việc về nhà để làm hay không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có cảm thấy lượng công việc đang dần trở nên khó khăn khi so sánh với những gì đã được quy chuẩn trước đây không?"
+      },
+      {
+        "type": 1,
+        "info": "Bạn có căng thẳng khi phải tìm cách ứng xử với đồng nghiệp không?"
+      },
+      {
+        "type": 9,
+        "info": "Bạn từng nghĩ tới việc t.ự s.á.t bao nhiêu lần?"
+      }
+    ],
+    "common": {
+      "ques_1": {
+        "type": 6,
+        "info": "Bạn ít thấy hứng thú hoặc không tìm thấy niềm vui trong mọi việc"
+      },
+      "ques_2": {
+        "type": 6,
+        "info": "Bạn luôn cảm thấy chán nản, kiệt sức, tuyệt vọng"
+      },
+      "ques_3": {
+        "type": 6,
+        "info": "Bạn cảm thấy khó ngủ, ngủ không lâu hoặc ngược lại ngủ quá nhiều"
+      },
+      "ques_4": {
+        "type": 6,
+        "info": "Bạn luôn thấy mệt mỏi, thiếu năng lượng làm mọi việc"
+      },
+      "ques_5": {
+        "type": 6,
+        "info": "Bạn đột nhiên ăn quá nhiều hoặc chán ăn, biếng ăn"
+      },
+      "ques_6": {
+        "type": 6,
+        "info": "Bạn mất tự tin vào bản thân, thất vọng về bản thân và cả gia đình"
+      },
+      "ques_7": {
+        "type": 6,
+        "info": "Bạn không thể tập trung khi làm việc"
+      },
+      "ques_8": {
+        "type": 6,
+        "info": "Bạn hoạt động chậm chạp, đi lại hay nói chuyện đều chậm khiến mọi người chú ý. Hoặc bồn chồn không thể ở yên một chỗ"
+      },
+      "ques_9": {
+        "type": 6,
+        "info": "Bạn có suy nghĩ tiêu cực, muốn làm tổn thương bản thân thậm chí có suy nghĩ tự sát"
+      }
+    }
+  },
+  "answers": [
+    [
+      "Chưa từng",
+      "Hiếm khi (vài lần )",
+      "Thỉnh thoảng (ngày có, ngày không nhưng không thường xuyên)",
+      "Thường xuyên (có thể vài lần trong một ngày)",
+      "Luôn luôn (mỗi ngày mỗi lúc)"
+    ],
+    ["Có", "Một chút", "Không"],
+    ["Có", "Không", "Chưa xác định"],
+    [
+      "Anh trai, chị gái, hoặc em trai, em gái",
+      "Ba",
+      "Mẹ",
+      "Ông, bà",
+      "Không một ai"
+    ],
+    ["Chưa từng", "Rất ít - ít", "Bình thường", "Nhiều", "Rất nhiều"],
+    [
+      "Hầu như không có",
+      "Một vài ngày",
+      "Hơn một nửa thời gian",
+      "Tất cả mọi ngày"
+    ],
+    ["Con cả", "Con thứ", "Con út", "Con một"],
+    [
+      "Một ngày",
+      "Một tuần",
+      "Một tháng",
+      "Nửa Năm",
+      "Một năm",
+      "Hai năm",
+      "Hơn ba năm"
+    ],
+    [
+      "Chưa từng",
+      "Một - hai lần",
+      "Khoảng năm lần",
+      "Khoảng 10 lần",
+      "Rất nhiều",
+      "Mỗi ngày"
+    ],
+    [
+      "Phần lớn dành cho học tập",
+      "Cân đối giữa học tập và vui chơi",
+      "Phần lớn dành cho việc vui chơi"
+    ],
+    ["Tiền nhà ở", "Học phí", "Phí sinh hoạt cá nhân", "Mua sắm", "Giải trí"],
+    [
+      "Hướng nội",
+      "Hướng ngoại",
+      "Vừa hướng nội vừa hướng ngoại",
+      "Chưa xác định"
+    ],
+    ["Gia Đình", "Học vấn", "Công Việc", "Tình cảm ", "Bản Thân"]
+  ]
+}
