@@ -10,6 +10,14 @@ import {
   Stack,
   useColorModeValue,
   IconButton,
+  Modal,
+  ModalOverlay,
+  ModalContent,
+  ModalHeader,
+  ModalFooter,
+  ModalCloseButton,
+  ModalBody,
+  useDisclosure,
 } from "@chakra-ui/react";
 import { CommonColors } from "./CommonColors";
 import {
@@ -19,8 +27,10 @@ import {
   CloseIcon,
   RepeatIcon,
 } from "@chakra-ui/icons";
+import Newsletter from "./Newsletter";
 
 export const StepsInput = ({ topic, questions, answers }) => {
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const [activeStep, setActiveStep] = React.useState(0);
   const [value, setValue] = React.useState({
     topic: topic,
@@ -60,7 +70,8 @@ export const StepsInput = ({ topic, questions, answers }) => {
       }
       A.push({ question: outer, chosen: temp });
     }
-    console.log(A);
+
+    onOpen();
   };
 
   return (
@@ -109,9 +120,22 @@ export const StepsInput = ({ topic, questions, answers }) => {
           </Box>
         ))}
       </Box>
+
       <Center>
         <Button onClick={handleUserValues}>Submit</Button>
       </Center>
+
+      <Modal
+        blockScrollOnMount={false}
+        isOpen={isOpen}
+        onClose={onClose}
+        isCentered
+      >
+        <ModalOverlay />
+        <ModalContent>
+          <Newsletter />
+        </ModalContent>
+      </Modal>
     </>
   );
 };

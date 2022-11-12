@@ -8,16 +8,12 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Box,
 } from "@chakra-ui/react";
 
 export default function Newsletter() {
   return (
-    <Flex
-      minH={"60vh"}
-      align={"center"}
-      justify={"center"}
-      bg={useColorModeValue("black", "white")}
-    >
+    <Box align={"center"} justify={"center"}>
       <Stack
         boxShadow={"2xl"}
         bg={useColorModeValue("white", "gray.700")}
@@ -64,7 +60,7 @@ export default function Newsletter() {
           </Button>
         </Stack>
       </Stack>
-    </Flex>
+    </Box>
   );
 }
 
