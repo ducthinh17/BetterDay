@@ -30,15 +30,15 @@ Research on depression mostly focuses on medical data to study the causes and so
 
 ## How to try ?
 
-Step 1: To access the depression test, go to https://better-day-hcmiu.vercel.app/.
+**Step 1:** To access the depression test, go to https://better-day-hcmiu.vercel.app/.
 
-Step 2: Choose the test that best suits your needs from the available options.
+**Step 2:** Choose the test that best suits your needs from the available options.
 
-Step 3: Read the instructions carefully before answering the questions to ensure that you understand how to answer each question and receive an accurate score.
+**Step 3:** Read the instructions carefully before answering the questions to ensure that you understand how to answer each question and receive an accurate score.
 
-Step 4: Take the test in a quiet and distraction-free environment, and answer each question honestly and to the best of your knowledge.
+**Step 4:** Take the test in a quiet and distraction-free environment, and answer each question honestly and to the best of your knowledge.
 
-Step 5: Once you've completed the test, review your results. Some tests provide immediate results, along with expert advice and simple treatments.
+**Step 5:** Once you've completed the test, review your results. Some tests provide immediate results, along with expert advice and simple treatments.
 
 If you score high on the test or believe that you may be experiencing depression, consider seeking professional help from a mental health provider. They can provide you with a diagnosis and appropriate treatment options.
 
@@ -50,7 +50,7 @@ If you score high on the test or believe that you may be experiencing depression
 
 - 🔥  **Pham Le Duc Thinh** Member - Built up the co-foundation. [BetterDay]
 - 👨‍💻  **Hoang Anh Tu** Leader - Built up the co-foundation. [BetterDay]
-- 👯 **Thanh Binh** built up awesome characters and character movement. [BetterDay]
+- 👯 **Nguyen Thanh Binh** Member - Built up UI/UX design. [BetterDay]
 
 # About us:
 
