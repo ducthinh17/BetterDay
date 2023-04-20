@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 <p align="center">
   <!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
     <a href="https://github.com/ducthinh17/BetterDay">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=538CF7&width=550&lines=Wellcome+to+BetterDay)](https://git.io/typing-svg" /> </a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=35&pause=1000&color=538CF7&width=550&lines=Wellcome+to+BetterDay")](https://git.io/typing-svg" /> </a>
 </p>
 
 <p align="center">
