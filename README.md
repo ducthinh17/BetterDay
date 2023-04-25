@@ -15,7 +15,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 <h3 align="center">Website predicts the level of depression of Vietnamese students based on data analysis. ✨✨</h3>
 
-<p align="center" > <img align="center" alt = "gif" src = "https://github.com/ducthinh17/Space-Invaders/blob/master/demo_2.gif" width="640" height="480" /></p>
+<p align="center" > <img align="center" alt = "gif" src = "https://github.com/ducthinh17/BetterDay/blob/main/betterday.gif" width="640" height="480" /></p>
 
 # About BetterDay
 
