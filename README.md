@@ -50,7 +50,7 @@ If you score high on the test or believe that you may be experiencing depression
 
 - 🔥  **Pham Le Duc Thinh** Member - Built up the co-foundation. [BetterDay]
 - 👨‍💻  **Hoang Anh Tu** Leader - Built up the co-foundation. [BetterDay]
-- 👯 **Nguyen Thanh Binh** Member - Built up UI/UX design. [BetterDay]
+- 👯 **Nguyen Thanh Binh** Member - Built up co-foundation. [BetterDay]
 
 # About us:
 
